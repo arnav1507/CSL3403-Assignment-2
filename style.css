@@ -1,0 +1,24 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  padding: 20rem 2rem;
+}
+h1, h2{
+  color: #7F1380;
+}
+#btn{
+            transition: 0.5s;
+          }
+  #btn:hover{
+      border: solid 2px #EE5015;
+      transform: scale(2, 2);
+      color: purple;
+
+  }
